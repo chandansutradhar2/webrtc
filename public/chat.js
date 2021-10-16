@@ -1,4 +1,4 @@
-let socket = io.connect("http://localhost:4000");
+let socket = io.connect("http://localhost:3000");
 
 var message = document.getElementById("message");
 var button = document.getElementById("send");
