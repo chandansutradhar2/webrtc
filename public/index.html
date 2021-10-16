@@ -9,7 +9,18 @@
 </head>
 
 <body>
-    <h2>RealTime Chat App</h2>
+    <div id="chat-app">
+        <h2 class="text">Real-Time Chat</h2>
+        <input id="username" type="text" placeholder="Username" />
+        <div id="chat-window">
+            <div id="output"></div>
+        </div>
+        <input id="message" type="text" placeholder="Message" />
+        <button id="send">Send</button>
+    </div>
+
 </body>
+<script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+<script src="/chat.js"></script>
 
 </html>
